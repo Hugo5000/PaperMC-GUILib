@@ -1,11 +1,17 @@
 plugins {
     id("java")
     id("idea")
+    id("maven-publish")
 }
 
 val githubUsername: String by project
 val githubToken: String by project
 
+val version: String by project
+val group: String by project
+val artifact: String by project
+project.group = group
+project.version = version
 repositories {
     mavenCentral()
     // paper-api
@@ -60,4 +66,25 @@ tasks {
     }
     compileTestJava { options.encoding = "UTF-8" }
     javadoc { options.encoding = "UTF-8" }
+}
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = group
+            artifactId = artifact
+            version = version
+
+            from(components["java"])
+        }
+    }
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/Hugo5000/PaperMC-GUILib")
+            credentials {
+                username = githubUsername
+                password = githubToken
+            }
+        }
+    }
 }
