@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ADOXML SYSTEM "adoxml31.dtd">
+<ADOXML version="3.1" date="18.04.2023" time="16:28" database="beeup16" username="Admin" adoversion="Version 5.1">
+<MODELS>
+<MODEL id="mod.14890" name="GUILib Class Diagram" version="" modeltype="Class / Object Diagram" libtype="bp" applib="Bee-Up v1.6 Dynamic">
+<MODELATTRIBUTES>
+<ATTRIBUTE name="Version number" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Author" type="STRING">Admin</ATTRIBUTE>
+<ATTRIBUTE name="Creation date" type="STRING">28.03.2023, 16:32</ATTRIBUTE>
+<ATTRIBUTE name="Date last changed" type="STRING">18.04.2023, 16:24:35</ATTRIBUTE>
+<ATTRIBUTE name="Last user" type="STRING">Admin</ATTRIBUTE>
+<ATTRIBUTE name="Keywords" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Comment" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Model type" type="ENUMERATION">Current model</ATTRIBUTE>
+<ATTRIBUTE name="State" type="ENUMERATION">In process</ATTRIBUTE>
+<ATTRIBUTE name="Reviewed on" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Reviewed by" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Number of objects and relations" type="INTEGER">14</ATTRIBUTE>
+<ATTRIBUTE name="World area" type="STRING">w:17cm h:17cm minw:5cm minh:5cm</ATTRIBUTE>
+<ATTRIBUTE name="Grid" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Zoom" type="INTEGER">100</ATTRIBUTE>
+<ATTRIBUTE name="Viewable area" type="STRING">VIEW representation:graphic
+GRAPHIC x:-16 y:-16 w:1554 h:933 scale:1
+TABLE
+</ATTRIBUTE>
+<ATTRIBUTE name="Current mode" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Base name" type="STRING">GUILib Class Diagram</ATTRIBUTE>
+<ATTRIBUTE name="Access state" type="ENUMERATION">write</ATTRIBUTE>
+<ATTRIBUTE name="Current page layout" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Connector marks" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Type" type="STRING">Class / Object Diagram</ATTRIBUTE>
+<ATTRIBUTE name="Change counter" type="INTEGER">1532</ATTRIBUTE>
+<ATTRIBUTE name="Font size" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Context of version" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Name" type="STRING">GUILib Class Diagram</ATTRIBUTE>
+<ATTRIBUTE name="Open questions" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">public</ATTRIBUTE>
+<ATTRIBUTE name="Parameter" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Precondition" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Postcondition" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="IsAbstract" type="ENUMERATION">no</ATTRIBUTE>
+<ATTRIBUTE name="IsActive" type="ENUMERATION">no</ATTRIBUTE>
+<ATTRIBUTE name="IsLeaf" type="ENUMERATION">no</ATTRIBUTE>
+<ATTRIBUTE name="IsReadOnly" type="ENUMERATION">no</ATTRIBUTE>
+<ATTRIBUTE name="IsReentrant" type="ENUMERATION">no</ATTRIBUTE>
+<ATTRIBUTE name="IsSingleExecution" type="ENUMERATION">no</ATTRIBUTE>
+<ATTRIBUTE name="Project phase" type="ENUMERATION">Analysis</ATTRIBUTE>
+<ATTRIBUTE name="URI" type="STRING"></ATTRIBUTE>
+<RECORD name="Additional Triples"></RECORD>
+<RECORD name="Change history"></RECORD>
+<ATTRIBUTE name="Position" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Comment" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="fontcolor" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-01] Internal error!  \&quot;fontcolor\&quot; (BPModel)&quot;</ATTRIBUTE>
+<ATTRIBUTE name="vizGrayscaleMode" type="EXPRESSION">EXPR val:0</ATTRIBUTE>
+<ATTRIBUTE name="General purpose attribute" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="objectid" type="EXPRESSION">EXPR val:14890</ATTRIBUTE>
+<RECORD name="Custom attributes"></RECORD>
+<ATTRIBUTE name="Sort custom attributes" type="PROGRAMCALL">ITEM &quot;Sort custom attributes (ascending)&quot; param:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Auditing" type="ENUMERATION">No</ATTRIBUTE>
+<ATTRIBUTE name="Closed" type="ENUMERATION">No</ATTRIBUTE>
+<ATTRIBUTE name="Executable" type="ENUMERATION">No</ATTRIBUTE>
+<ATTRIBUTE name="Monitoring" type="ENUMERATION">No</ATTRIBUTE>
+<ATTRIBUTE name="Process type" type="ENUMERATION">None</ATTRIBUTE>
+<ATTRIBUTE name="__GfxThumb__" type="LONGSTRING">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</ATTRIBUTE>
+<ATTRIBUTE name="Used Notation (ER)" type="ENUMERATION">Chen-Notation</ATTRIBUTE>
+<ATTRIBUTE name="Visualize priorities" type="ENUMERATION">no</ATTRIBUTE>
+<ATTRIBUTE name="Visualize probabilities" type="ENUMERATION">no</ATTRIBUTE>
+<ATTRIBUTE name="IS-A Behaviour" type="ENUMERATION">Reference parent</ATTRIBUTE>
+<ATTRIBUTE name="SQL end of statement" type="STRING">;</ATTRIBUTE>
+<ATTRIBUTE name="Namespace" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Expression language" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Type language" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="ID" type="EXPRESSION">EXPR val:&quot;14890&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Visualize fire button" type="ENUMERATION">yes</ATTRIBUTE>
+<ATTRIBUTE name="Grayscale mode" type="INTEGER">0</ATTRIBUTE>
+<ATTRIBUTE name="Allow effects" type="ENUMERATION">no</ATTRIBUTE>
+<ATTRIBUTE name="Visualize execute button" type="ENUMERATION">yes</ATTRIBUTE>
+<ATTRIBUTE name="Visualize connector direction" type="ENUMERATION">yes</ATTRIBUTE>
+<ATTRIBUTE name="Visualize links to DMN" type="ENUMERATION">yes</ATTRIBUTE>
+<ATTRIBUTE name="Generate SQL Create statements" type="PROGRAMCALL">ITEM &quot;Generate SQL&quot; param:&quot;&quot;</ATTRIBUTE>
+</MODELATTRIBUTES>
+<INSTANCE id="obj.14895" class="Class (UML)" name="GUIInventoryHolder&lt;P extends JavaPlugin&gt;">
+<ATTRIBUTE name="Position" type="STRING">NODE x:6.25cm y:7.75cm w:12cm h:7.25cm index:1</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Comment" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="STRING">Is an Bukkit InventoryHolder that has methods for easily creating an GUI</ATTRIBUTE>
+<ATTRIBUTE name="Open questions" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="fontcolor" type="EXPRESSION">EXPR val:&quot;black&quot;</ATTRIBUTE>
+<ATTRIBUTE name="URI" type="STRING"></ATTRIBUTE>
+<RECORD name="Additional Triples"></RECORD>
+<ATTRIBUTE name="vizGrayscaleMode" type="EXPRESSION">EXPR val:0</ATTRIBUTE>
+<ATTRIBUTE name="General purpose attribute" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="objectid" type="EXPRESSION">EXPR val:14895</ATTRIBUTE>
+<RECORD name="Custom attributes"></RECORD>
+<ATTRIBUTE name="Sort custom attributes" type="PROGRAMCALL">ITEM &quot;Sort custom attributes (ascending)&quot; param:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">public</ATTRIBUTE>
+<ATTRIBUTE name="ModelTypeExp" type="EXPRESSION">EXPR val:&quot;Class / Object Diagram&quot;</ATTRIBUTE>
+<ATTRIBUTE name="IsAbstract" type="ENUMERATION">yes</ATTRIBUTE>
+<ATTRIBUTE name="IsLeaf" type="ENUMERATION">no</ATTRIBUTE>
+<RECORD name="Properties">
+<ROW id="row.14989" number="1">
+<ATTRIBUTE name="Type" type="STRING">P</ATTRIBUTE>
+<ATTRIBUTE name="Derived" type="ENUMERATION"></ATTRIBUTE>
+<ATTRIBUTE name="Multiplicity" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">#</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">plugin</ATTRIBUTE>
+<ATTRIBUTE name="Default value" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Property modifiers" type="STRING">readOnly</ATTRIBUTE>
+</ROW>
+<ROW id="row.14987" number="2">
+<ATTRIBUTE name="Type" type="STRING">NamespacedKey</ATTRIBUTE>
+<ATTRIBUTE name="Derived" type="ENUMERATION"></ATTRIBUTE>
+<ATTRIBUTE name="Multiplicity" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">#</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">GUI_ITEM_KEY</ATTRIBUTE>
+<ATTRIBUTE name="Default value" type="STRING">(plugin, &quot;gui_item&quot;)</ATTRIBUTE>
+<ATTRIBUTE name="Property modifiers" type="STRING">readOnly</ATTRIBUTE>
+</ROW>
+<ROW id="row.14907" number="3">
+<ATTRIBUTE name="Type" type="STRING">Inventory</ATTRIBUTE>
+<ATTRIBUTE name="Derived" type="ENUMERATION"></ATTRIBUTE>
+<ATTRIBUTE name="Multiplicity" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">-</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">inventory</ATTRIBUTE>
+<ATTRIBUTE name="Default value" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Property modifiers" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.15008" number="4">
+<ATTRIBUTE name="Type" type="STRING">Map&lt;Integer, Runnable&gt;</ATTRIBUTE>
+<ATTRIBUTE name="Derived" type="ENUMERATION"></ATTRIBUTE>
+<ATTRIBUTE name="Multiplicity" type="STRING">0..*</ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">-</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">slotActions</ATTRIBUTE>
+<ATTRIBUTE name="Default value" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Property modifiers" type="STRING"></ATTRIBUTE>
+</ROW>
+</RECORD>
+<RECORD name="Operations">
+<ROW id="row.14991" number="1">
+<ATTRIBUTE name="Return type" type="STRING">Inventory</ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">+</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">getInventory</ATTRIBUTE>
+<ATTRIBUTE name="Parameter list" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Operation properties" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.14931" number="2">
+<ATTRIBUTE name="Return type" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">+</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">open</ATTRIBUTE>
+<ATTRIBUTE name="Parameter list" type="STRING">player : Player</ATTRIBUTE>
+<ATTRIBUTE name="Operation properties" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.16289" number="3">
+<ATTRIBUTE name="Return type" type="STRING">boolean</ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">+</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">isInventoryItem</ATTRIBUTE>
+<ATTRIBUTE name="Parameter list" type="STRING">item : ItemStack</ATTRIBUTE>
+<ATTRIBUTE name="Operation properties" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.16287" number="4">
+<ATTRIBUTE name="Return type" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">#</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">fill</ATTRIBUTE>
+<ATTRIBUTE name="Parameter list" type="STRING">item : ItemStack</ATTRIBUTE>
+<ATTRIBUTE name="Operation properties" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.14909" number="5">
+<ATTRIBUTE name="Return type" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">#</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">update</ATTRIBUTE>
+<ATTRIBUTE name="Parameter list" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Operation properties" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.15002" number="6">
+<ATTRIBUTE name="Return type" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">#</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">setItem</ATTRIBUTE>
+<ATTRIBUTE name="Parameter list" type="STRING">slot : int, item : ItemStack</ATTRIBUTE>
+<ATTRIBUTE name="Operation properties" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.15004" number="7">
+<ATTRIBUTE name="Return type" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">#</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">setItem</ATTRIBUTE>
+<ATTRIBUTE name="Parameter list" type="STRING">slot : int, item : ItemStack, onClick : Runnable</ATTRIBUTE>
+<ATTRIBUTE name="Operation properties" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.14911" number="8">
+<ATTRIBUTE name="Return type" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">+</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">onClick</ATTRIBUTE>
+<ATTRIBUTE name="Parameter list" type="STRING">event : InventoryClickEvent</ATTRIBUTE>
+<ATTRIBUTE name="Operation properties" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.14913" number="9">
+<ATTRIBUTE name="Return type" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">+</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">onDrag</ATTRIBUTE>
+<ATTRIBUTE name="Parameter list" type="STRING">event : InventoryDragEvent</ATTRIBUTE>
+<ATTRIBUTE name="Operation properties" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.14915" number="10">
+<ATTRIBUTE name="Return type" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">+</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">onClose</ATTRIBUTE>
+<ATTRIBUTE name="Parameter list" type="STRING">event : InventoryCloseEvent</ATTRIBUTE>
+<ATTRIBUTE name="Operation properties" type="STRING"></ATTRIBUTE>
+</ROW>
+</RECORD>
+<ATTRIBUTE name="Presentation" type="ENUMERATION">Detailed</ATTRIBUTE>
+<ATTRIBUTE name="Extended properties" type="ENUMERATIONLIST"></ATTRIBUTE>
+<ATTRIBUTE name="User defined properties" type="STRING"></ATTRIBUTE>
+<INTERREF name="Details"></INTERREF>
+<ATTRIBUTE name="Template parameter" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Color" type="STRING">white</ATTRIBUTE>
+<ATTRIBUTE name="IsActive" type="ENUMERATION">no</ATTRIBUTE>
+<INTERREF name="Referenced class"></INTERREF>
+<ATTRIBUTE name="Operations displayed" type="INTEGER">-1</ATTRIBUTE>
+<ATTRIBUTE name="Properties displayed" type="INTEGER">-1</ATTRIBUTE>
+<ATTRIBUTE name="Fontcolor" type="EXPRESSION">EXPR expr:(set(valr,floor(rgbval(aval(&quot;Color&quot;))/65536)),
+set(valg,floor((((rgbval(aval(&quot;Color&quot;))/65536)-valr)*65536)/256)),
+cond(valr&lt;180,cond(valg&lt;160,&quot;white&quot;,&quot;black&quot;),&quot;black&quot;)) val:&quot;black&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Show extension properties" type="ENUMERATION">yes</ATTRIBUTE>
+<ATTRIBUTE name="Stereotype string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="RefIsAbstract" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;IsAbstract\&quot; (RootClass) does not exist!  \&quot;RefIsAbstract\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="RefIsActive" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;IsActive\&quot; (RootClass) does not exist!  \&quot;RefIsActive\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="RefTemplateParameter" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;Template parameter\&quot; (RootClass) does not exist!  \&quot;RefTemplateParameter\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Show template" type="ENUMERATION">yes</ATTRIBUTE>
+<ATTRIBUTE name="RefShowTemplate" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;Show template\&quot; (RootClass) does not exist!  \&quot;RefShowTemplate\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Operations analytical string" type="EXPRESSION">EXPR val:&quot;getInventory ()\r\nopen ()\r\nisInventoryItem ()\r\nonClick ()\r\nonDrag ()\r\nonClose ()\r\n&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Operations detailed string" type="EXPRESSION">EXPR val:&quot;+ getInventory () : Inventory\r\n+ open (player : Player)\r\n+ isInventoryItem (item : ItemStack) : boolean\r\n# fill (item : ItemStack)\r\n# update ()\r\n# setItem (slot : int, item : ItemStack)\r\n# setItem (slot : int, item : ItemStack, onClick : Runnable)\r\n+ onClick (event : InventoryClickEvent)\r\n+ onDrag (event : InventoryDragEvent)\r\n+ onClose (event : InventoryCloseEvent)\r\n&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Operations final string" type="EXPRESSION">EXPR val:&quot;+ getInventory () : Inventory\r\n+ open (player : Player)\r\n+ isInventoryItem (item : ItemStack) : boolean\r\n# fill (item : ItemStack)\r\n# update ()\r\n# setItem (slot : int, item : ItemStack)\r\n# setItem (slot : int, item : ItemStack, onClick : Runnable)\r\n+ onClick (event : InventoryClickEvent)\r\n+ onDrag (event : InventoryDragEvent)\r\n+ onClose (event : InventoryCloseEvent)\r\n&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Properties analytical string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Properties detailed string" type="EXPRESSION">EXPR val:&quot;# plugin : P {readOnly}\r\n# GUI_ITEM_KEY : NamespacedKey = (plugin, \&quot;gui_item\&quot;) {readOnly}\r\n- inventory : Inventory\r\n- slotActions : Map&lt;Integer, Runnable&gt; [0..*]\r\n&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Properties final string" type="EXPRESSION">EXPR val:&quot;# plugin : P {readOnly}\r\n# GUI_ITEM_KEY : NamespacedKey = (plugin, \&quot;gui_item\&quot;) {readOnly}\r\n- inventory : Inventory\r\n- slotActions : Map&lt;Integer, Runnable&gt; [0..*]\r\n&quot;</ATTRIBUTE>
+</INSTANCE>
+<INSTANCE id="obj.14901" class="Class (UML)" name="InventoryHolder">
+<ATTRIBUTE name="Position" type="STRING">NODE x:15cm y:7cm w:3.25cm h:1.25cm index:2</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Comment" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Open questions" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="fontcolor" type="EXPRESSION">EXPR val:&quot;black&quot;</ATTRIBUTE>
+<ATTRIBUTE name="URI" type="STRING"></ATTRIBUTE>
+<RECORD name="Additional Triples"></RECORD>
+<ATTRIBUTE name="vizGrayscaleMode" type="EXPRESSION">EXPR val:0</ATTRIBUTE>
+<ATTRIBUTE name="General purpose attribute" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="objectid" type="EXPRESSION">EXPR val:14901</ATTRIBUTE>
+<RECORD name="Custom attributes"></RECORD>
+<ATTRIBUTE name="Sort custom attributes" type="PROGRAMCALL">ITEM &quot;Sort custom attributes (ascending)&quot; param:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">public</ATTRIBUTE>
+<ATTRIBUTE name="ModelTypeExp" type="EXPRESSION">EXPR val:&quot;Class / Object Diagram&quot;</ATTRIBUTE>
+<ATTRIBUTE name="IsAbstract" type="ENUMERATION">yes</ATTRIBUTE>
+<ATTRIBUTE name="IsLeaf" type="ENUMERATION">no</ATTRIBUTE>
+<RECORD name="Properties"></RECORD>
+<RECORD name="Operations"></RECORD>
+<ATTRIBUTE name="Presentation" type="ENUMERATION">Conceptual</ATTRIBUTE>
+<ATTRIBUTE name="Extended properties" type="ENUMERATIONLIST">«interface»</ATTRIBUTE>
+<ATTRIBUTE name="User defined properties" type="STRING"></ATTRIBUTE>
+<INTERREF name="Details"></INTERREF>
+<ATTRIBUTE name="Template parameter" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Color" type="STRING">white</ATTRIBUTE>
+<ATTRIBUTE name="IsActive" type="ENUMERATION">no</ATTRIBUTE>
+<INTERREF name="Referenced class"></INTERREF>
+<ATTRIBUTE name="Operations displayed" type="INTEGER">-1</ATTRIBUTE>
+<ATTRIBUTE name="Properties displayed" type="INTEGER">-1</ATTRIBUTE>
+<ATTRIBUTE name="Fontcolor" type="EXPRESSION">EXPR expr:(set(valr,floor(rgbval(aval(&quot;Color&quot;))/65536)),
+set(valg,floor((((rgbval(aval(&quot;Color&quot;))/65536)-valr)*65536)/256)),
+cond(valr&lt;180,cond(valg&lt;160,&quot;white&quot;,&quot;black&quot;),&quot;black&quot;)) val:&quot;black&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Show extension properties" type="ENUMERATION">yes</ATTRIBUTE>
+<ATTRIBUTE name="Stereotype string" type="EXPRESSION">EXPR val:&quot;«interface»&quot;</ATTRIBUTE>
+<ATTRIBUTE name="RefIsAbstract" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;IsAbstract\&quot; (RootClass) does not exist!  \&quot;RefIsAbstract\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="RefIsActive" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;IsActive\&quot; (RootClass) does not exist!  \&quot;RefIsActive\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="RefTemplateParameter" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;Template parameter\&quot; (RootClass) does not exist!  \&quot;RefTemplateParameter\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Show template" type="ENUMERATION">yes</ATTRIBUTE>
+<ATTRIBUTE name="RefShowTemplate" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;Show template\&quot; (RootClass) does not exist!  \&quot;RefShowTemplate\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Operations analytical string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Operations detailed string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Operations final string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Properties analytical string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Properties detailed string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Properties final string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+</INSTANCE>
+<INSTANCE id="obj.14917" class="Class (UML)" name="GUIListener">
+<ATTRIBUTE name="Position" type="STRING">NODE x:6.25cm y:2.25cm w:9cm h:2.75cm index:4</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Comment" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="STRING">Is an Bukkit EventHandler to handle interactions with a GUIInventoryHolder</ATTRIBUTE>
+<ATTRIBUTE name="Open questions" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="fontcolor" type="EXPRESSION">EXPR val:&quot;black&quot;</ATTRIBUTE>
+<ATTRIBUTE name="URI" type="STRING"></ATTRIBUTE>
+<RECORD name="Additional Triples"></RECORD>
+<ATTRIBUTE name="vizGrayscaleMode" type="EXPRESSION">EXPR val:0</ATTRIBUTE>
+<ATTRIBUTE name="General purpose attribute" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="objectid" type="EXPRESSION">EXPR val:14917</ATTRIBUTE>
+<RECORD name="Custom attributes"></RECORD>
+<ATTRIBUTE name="Sort custom attributes" type="PROGRAMCALL">ITEM &quot;Sort custom attributes (ascending)&quot; param:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">public</ATTRIBUTE>
+<ATTRIBUTE name="ModelTypeExp" type="EXPRESSION">EXPR val:&quot;Class / Object Diagram&quot;</ATTRIBUTE>
+<ATTRIBUTE name="IsAbstract" type="ENUMERATION">no</ATTRIBUTE>
+<ATTRIBUTE name="IsLeaf" type="ENUMERATION">no</ATTRIBUTE>
+<RECORD name="Properties"></RECORD>
+<RECORD name="Operations">
+<ROW id="row.14925" number="1">
+<ATTRIBUTE name="Return type" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">+</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">@EventHandler onClick</ATTRIBUTE>
+<ATTRIBUTE name="Parameter list" type="STRING">event: InventoryClickEvent</ATTRIBUTE>
+<ATTRIBUTE name="Operation properties" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.14927" number="2">
+<ATTRIBUTE name="Return type" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">+</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">@EventHandler onDrag</ATTRIBUTE>
+<ATTRIBUTE name="Parameter list" type="STRING">event: InventoryDragEvent</ATTRIBUTE>
+<ATTRIBUTE name="Operation properties" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.14929" number="3">
+<ATTRIBUTE name="Return type" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">+</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">@EventHandler onClose</ATTRIBUTE>
+<ATTRIBUTE name="Parameter list" type="STRING">event: InventoryCloseEvent</ATTRIBUTE>
+<ATTRIBUTE name="Operation properties" type="STRING"></ATTRIBUTE>
+</ROW>
+</RECORD>
+<ATTRIBUTE name="Presentation" type="ENUMERATION">Detailed</ATTRIBUTE>
+<ATTRIBUTE name="Extended properties" type="ENUMERATIONLIST"></ATTRIBUTE>
+<ATTRIBUTE name="User defined properties" type="STRING"></ATTRIBUTE>
+<INTERREF name="Details"></INTERREF>
+<ATTRIBUTE name="Template parameter" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Color" type="STRING">white</ATTRIBUTE>
+<ATTRIBUTE name="IsActive" type="ENUMERATION">no</ATTRIBUTE>
+<INTERREF name="Referenced class"></INTERREF>
+<ATTRIBUTE name="Operations displayed" type="INTEGER">-1</ATTRIBUTE>
+<ATTRIBUTE name="Properties displayed" type="INTEGER">-1</ATTRIBUTE>
+<ATTRIBUTE name="Fontcolor" type="EXPRESSION">EXPR expr:(set(valr,floor(rgbval(aval(&quot;Color&quot;))/65536)),
+set(valg,floor((((rgbval(aval(&quot;Color&quot;))/65536)-valr)*65536)/256)),
+cond(valr&lt;180,cond(valg&lt;160,&quot;white&quot;,&quot;black&quot;),&quot;black&quot;)) val:&quot;black&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Show extension properties" type="ENUMERATION">yes</ATTRIBUTE>
+<ATTRIBUTE name="Stereotype string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="RefIsAbstract" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;IsAbstract\&quot; (RootClass) does not exist!  \&quot;RefIsAbstract\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="RefIsActive" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;IsActive\&quot; (RootClass) does not exist!  \&quot;RefIsActive\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="RefTemplateParameter" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;Template parameter\&quot; (RootClass) does not exist!  \&quot;RefTemplateParameter\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Show template" type="ENUMERATION">yes</ATTRIBUTE>
+<ATTRIBUTE name="RefShowTemplate" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;Show template\&quot; (RootClass) does not exist!  \&quot;RefShowTemplate\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Operations analytical string" type="EXPRESSION">EXPR val:&quot;@EventHandler onClick ()\r\n@EventHandler onDrag ()\r\n@EventHandler onClose ()\r\n&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Operations detailed string" type="EXPRESSION">EXPR val:&quot;+ @EventHandler onClick (event: InventoryClickEvent)\r\n+ @EventHandler onDrag (event: InventoryDragEvent)\r\n+ @EventHandler onClose (event: InventoryCloseEvent)\r\n&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Operations final string" type="EXPRESSION">EXPR val:&quot;+ @EventHandler onClick (event: InventoryClickEvent)\r\n+ @EventHandler onDrag (event: InventoryDragEvent)\r\n+ @EventHandler onClose (event: InventoryCloseEvent)\r\n&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Properties analytical string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Properties detailed string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Properties final string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+</INSTANCE>
+<INSTANCE id="obj.14921" class="Class (UML)" name="Listener">
+<ATTRIBUTE name="Position" type="STRING">NODE x:15cm y:2.25cm w:3.25cm h:1.25cm index:5</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Comment" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Open questions" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="fontcolor" type="EXPRESSION">EXPR val:&quot;black&quot;</ATTRIBUTE>
+<ATTRIBUTE name="URI" type="STRING"></ATTRIBUTE>
+<RECORD name="Additional Triples"></RECORD>
+<ATTRIBUTE name="vizGrayscaleMode" type="EXPRESSION">EXPR val:0</ATTRIBUTE>
+<ATTRIBUTE name="General purpose attribute" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="objectid" type="EXPRESSION">EXPR val:14921</ATTRIBUTE>
+<RECORD name="Custom attributes"></RECORD>
+<ATTRIBUTE name="Sort custom attributes" type="PROGRAMCALL">ITEM &quot;Sort custom attributes (ascending)&quot; param:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">public</ATTRIBUTE>
+<ATTRIBUTE name="ModelTypeExp" type="EXPRESSION">EXPR val:&quot;Class / Object Diagram&quot;</ATTRIBUTE>
+<ATTRIBUTE name="IsAbstract" type="ENUMERATION">yes</ATTRIBUTE>
+<ATTRIBUTE name="IsLeaf" type="ENUMERATION">no</ATTRIBUTE>
+<RECORD name="Properties"></RECORD>
+<RECORD name="Operations"></RECORD>
+<ATTRIBUTE name="Presentation" type="ENUMERATION">Conceptual</ATTRIBUTE>
+<ATTRIBUTE name="Extended properties" type="ENUMERATIONLIST">«interface»</ATTRIBUTE>
+<ATTRIBUTE name="User defined properties" type="STRING"></ATTRIBUTE>
+<INTERREF name="Details"></INTERREF>
+<ATTRIBUTE name="Template parameter" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Color" type="STRING">white</ATTRIBUTE>
+<ATTRIBUTE name="IsActive" type="ENUMERATION">no</ATTRIBUTE>
+<INTERREF name="Referenced class"></INTERREF>
+<ATTRIBUTE name="Operations displayed" type="INTEGER">-1</ATTRIBUTE>
+<ATTRIBUTE name="Properties displayed" type="INTEGER">-1</ATTRIBUTE>
+<ATTRIBUTE name="Fontcolor" type="EXPRESSION">EXPR expr:(set(valr,floor(rgbval(aval(&quot;Color&quot;))/65536)),
+set(valg,floor((((rgbval(aval(&quot;Color&quot;))/65536)-valr)*65536)/256)),
+cond(valr&lt;180,cond(valg&lt;160,&quot;white&quot;,&quot;black&quot;),&quot;black&quot;)) val:&quot;black&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Show extension properties" type="ENUMERATION">yes</ATTRIBUTE>
+<ATTRIBUTE name="Stereotype string" type="EXPRESSION">EXPR val:&quot;«interface»&quot;</ATTRIBUTE>
+<ATTRIBUTE name="RefIsAbstract" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;IsAbstract\&quot; (RootClass) does not exist!  \&quot;RefIsAbstract\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="RefIsActive" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;IsActive\&quot; (RootClass) does not exist!  \&quot;RefIsActive\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="RefTemplateParameter" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;Template parameter\&quot; (RootClass) does not exist!  \&quot;RefTemplateParameter\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Show template" type="ENUMERATION">yes</ATTRIBUTE>
+<ATTRIBUTE name="RefShowTemplate" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;Show template\&quot; (RootClass) does not exist!  \&quot;RefShowTemplate\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Operations analytical string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Operations detailed string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Operations final string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Properties analytical string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Properties detailed string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Properties final string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+</INSTANCE>
+<INSTANCE id="obj.14953" class="Class (UML)" name="GUIData">
+<ATTRIBUTE name="Position" type="STRING">NODE x:6.25cm y:14.75cm w:7.25cm h:3.75cm index:7</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Comment" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Open questions" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="fontcolor" type="EXPRESSION">EXPR val:&quot;black&quot;</ATTRIBUTE>
+<ATTRIBUTE name="URI" type="STRING"></ATTRIBUTE>
+<RECORD name="Additional Triples"></RECORD>
+<ATTRIBUTE name="vizGrayscaleMode" type="EXPRESSION">EXPR val:0</ATTRIBUTE>
+<ATTRIBUTE name="General purpose attribute" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="objectid" type="EXPRESSION">EXPR val:14953</ATTRIBUTE>
+<RECORD name="Custom attributes"></RECORD>
+<ATTRIBUTE name="Sort custom attributes" type="PROGRAMCALL">ITEM &quot;Sort custom attributes (ascending)&quot; param:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">public</ATTRIBUTE>
+<ATTRIBUTE name="ModelTypeExp" type="EXPRESSION">EXPR val:&quot;Class / Object Diagram&quot;</ATTRIBUTE>
+<ATTRIBUTE name="IsAbstract" type="ENUMERATION">yes</ATTRIBUTE>
+<ATTRIBUTE name="IsLeaf" type="ENUMERATION">no</ATTRIBUTE>
+<RECORD name="Properties"></RECORD>
+<RECORD name="Operations">
+<ROW id="row.15020" number="1">
+<ATTRIBUTE name="Return type" type="STRING">int</ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">+</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">rows</ATTRIBUTE>
+<ATTRIBUTE name="Parameter list" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Operation properties" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.15022" number="2">
+<ATTRIBUTE name="Return type" type="STRING">int</ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">+</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">size</ATTRIBUTE>
+<ATTRIBUTE name="Parameter list" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Operation properties" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.15018" number="3">
+<ATTRIBUTE name="Return type" type="STRING">Itemstack</ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">+</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">fillterItem</ATTRIBUTE>
+<ATTRIBUTE name="Parameter list" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Operation properties" type="STRING"></ATTRIBUTE>
+</ROW>
+<ROW id="row.15024" number="4">
+<ATTRIBUTE name="Return type" type="STRING">Component</ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">+</ATTRIBUTE>
+<ATTRIBUTE name="Naming" type="STRING">title</ATTRIBUTE>
+<ATTRIBUTE name="Parameter list" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Operation properties" type="STRING"></ATTRIBUTE>
+</ROW>
+</RECORD>
+<ATTRIBUTE name="Presentation" type="ENUMERATION">Detailed</ATTRIBUTE>
+<ATTRIBUTE name="Extended properties" type="ENUMERATIONLIST">«interface»</ATTRIBUTE>
+<ATTRIBUTE name="User defined properties" type="STRING"></ATTRIBUTE>
+<INTERREF name="Details"></INTERREF>
+<ATTRIBUTE name="Template parameter" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Color" type="STRING">white</ATTRIBUTE>
+<ATTRIBUTE name="IsActive" type="ENUMERATION">no</ATTRIBUTE>
+<INTERREF name="Referenced class"></INTERREF>
+<ATTRIBUTE name="Operations displayed" type="INTEGER">-1</ATTRIBUTE>
+<ATTRIBUTE name="Properties displayed" type="INTEGER">-1</ATTRIBUTE>
+<ATTRIBUTE name="Fontcolor" type="EXPRESSION">EXPR expr:(set(valr,floor(rgbval(aval(&quot;Color&quot;))/65536)),
+set(valg,floor((((rgbval(aval(&quot;Color&quot;))/65536)-valr)*65536)/256)),
+cond(valr&lt;180,cond(valg&lt;160,&quot;white&quot;,&quot;black&quot;),&quot;black&quot;)) val:&quot;black&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Show extension properties" type="ENUMERATION">yes</ATTRIBUTE>
+<ATTRIBUTE name="Stereotype string" type="EXPRESSION">EXPR val:&quot;«interface»&quot;</ATTRIBUTE>
+<ATTRIBUTE name="RefIsAbstract" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;IsAbstract\&quot; (RootClass) does not exist!  \&quot;RefIsAbstract\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="RefIsActive" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;IsActive\&quot; (RootClass) does not exist!  \&quot;RefIsActive\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="RefTemplateParameter" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;Template parameter\&quot; (RootClass) does not exist!  \&quot;RefTemplateParameter\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Show template" type="ENUMERATION">yes</ATTRIBUTE>
+<ATTRIBUTE name="RefShowTemplate" type="EXPRESSION">EXPR val:error:&quot;[acoexpar-02] Attribute \&quot;Show template\&quot; (RootClass) does not exist!  \&quot;RefShowTemplate\&quot; (Class (UML))&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Operations analytical string" type="EXPRESSION">EXPR val:&quot;rows ()\r\nsize ()\r\nfillterItem ()\r\ntitle ()\r\n&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Operations detailed string" type="EXPRESSION">EXPR val:&quot;+ rows () : int\r\n+ size () : int\r\n+ fillterItem () : Itemstack\r\n+ title () : Component\r\n&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Operations final string" type="EXPRESSION">EXPR val:&quot;+ rows () : int\r\n+ size () : int\r\n+ fillterItem () : Itemstack\r\n+ title () : Component\r\n&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Properties analytical string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Properties detailed string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Properties final string" type="EXPRESSION">EXPR val:&quot;&quot;</ATTRIBUTE>
+</INSTANCE>
+<INSTANCE id="obj.15106" class="Package (UML)" name="GUI Lib">
+<ATTRIBUTE name="Position" type="STRING">NODE x:0cm y:0cm w:17cm h:17cm index:9</ATTRIBUTE>
+<ATTRIBUTE name="External tool coupling" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Comment" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Open questions" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="fontcolor" type="EXPRESSION">EXPR val:&quot;black&quot;</ATTRIBUTE>
+<ATTRIBUTE name="URI" type="STRING"></ATTRIBUTE>
+<RECORD name="Additional Triples"></RECORD>
+<ATTRIBUTE name="vizGrayscaleMode" type="EXPRESSION">EXPR val:0</ATTRIBUTE>
+<ATTRIBUTE name="General purpose attribute" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="objectid" type="EXPRESSION">EXPR val:15106</ATTRIBUTE>
+<RECORD name="Custom attributes"></RECORD>
+<ATTRIBUTE name="Sort custom attributes" type="PROGRAMCALL">ITEM &quot;Sort custom attributes (ascending)&quot; param:&quot;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="Color" type="STRING">white</ATTRIBUTE>
+<ATTRIBUTE name="Fontcolor" type="EXPRESSION">EXPR val:&quot;black&quot;</ATTRIBUTE>
+<INTERREF name="Sub models"></INTERREF>
+<ATTRIBUTE name="Presentation" type="ENUMERATION">No references</ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">public</ATTRIBUTE>
+<INTERREF name="Sub packages"></INTERREF>
+<INTERREF name="Packaged elements"></INTERREF>
+</INSTANCE>
+<CONNECTOR id="con.14906" class="Generalization (UML)">
+<FROM instance="GUIInventoryHolder&lt;P extends JavaPlugin&gt;" class="Class (UML)"></FROM>
+<TO instance="InventoryHolder" class="Class (UML)"></TO>
+<ATTRIBUTE name="Positions" type="STRING">EDGE 0 index:3</ATTRIBUTE>
+<ATTRIBUTE name="Name" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Comment" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Extended properties" type="ENUMERATIONLIST"></ATTRIBUTE>
+<ATTRIBUTE name="IsSubstitutable" type="ENUMERATION">no</ATTRIBUTE>
+<ATTRIBUTE name="Show name" type="ENUMERATION">no</ATTRIBUTE>
+<ATTRIBUTE name="Open questions" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="ToType" type="EXPRESSION">EXPR val:&quot;Class (UML)&quot;</ATTRIBUTE>
+<ATTRIBUTE name="General purpose attribute" type="LONGSTRING"></ATTRIBUTE>
+</CONNECTOR>
+<CONNECTOR id="con.14924" class="Generalization (UML)">
+<FROM instance="GUIListener" class="Class (UML)"></FROM>
+<TO instance="Listener" class="Class (UML)"></TO>
+<ATTRIBUTE name="Positions" type="STRING">EDGE 0 index:6</ATTRIBUTE>
+<ATTRIBUTE name="Name" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Comment" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Extended properties" type="ENUMERATIONLIST"></ATTRIBUTE>
+<ATTRIBUTE name="IsSubstitutable" type="ENUMERATION">no</ATTRIBUTE>
+<ATTRIBUTE name="Show name" type="ENUMERATION">no</ATTRIBUTE>
+<ATTRIBUTE name="Open questions" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="ToType" type="EXPRESSION">EXPR val:&quot;Class (UML)&quot;</ATTRIBUTE>
+<ATTRIBUTE name="General purpose attribute" type="LONGSTRING"></ATTRIBUTE>
+</CONNECTOR>
+<CONNECTOR id="con.14964" class="Association (UML)">
+<FROM instance="GUIInventoryHolder&lt;P extends JavaPlugin&gt;" class="Class (UML)"></FROM>
+<TO instance="GUIData" class="Class (UML)"></TO>
+<ATTRIBUTE name="Positions" type="STRING">EDGE 0 index:8 MIDDLE x:6.25cm y:11.53cm</ATTRIBUTE>
+<ATTRIBUTE name="Name" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Comment" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Description" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Start" type="STRING">1</ATTRIBUTE>
+<ATTRIBUTE name="Qualified association" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="End" type="STRING">1</ATTRIBUTE>
+<ATTRIBUTE name="Direction" type="ENUMERATION">Outgoing</ATTRIBUTE>
+<ATTRIBUTE name="Not navigable end" type="ENUMERATION">Without</ATTRIBUTE>
+<ATTRIBUTE name="Reading direction" type="ENUMERATION">Without</ATTRIBUTE>
+<ATTRIBUTE name="User defined property (to)" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="IsAbstract" type="ENUMERATION">no</ATTRIBUTE>
+<ATTRIBUTE name="IsLeaf" type="ENUMERATION">no</ATTRIBUTE>
+<ATTRIBUTE name="Visibility" type="ENUMERATION">public</ATTRIBUTE>
+<ATTRIBUTE name="IsDerived" type="ENUMERATION">no</ATTRIBUTE>
+<ATTRIBUTE name="From role" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="To role" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="User defined property (from)" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Open questions" type="STRING"></ATTRIBUTE>
+<ATTRIBUTE name="Extended properties (from)" type="ENUMERATIONLIST"></ATTRIBUTE>
+<ATTRIBUTE name="Extended properties (to)" type="ENUMERATIONLIST"></ATTRIBUTE>
+<ATTRIBUTE name="Representation start" type="ENUMERATION">left/right</ATTRIBUTE>
+<ATTRIBUTE name="Representation end" type="ENUMERATION">left/right</ATTRIBUTE>
+<ATTRIBUTE name="Representation middle" type="ENUMERATION">right</ATTRIBUTE>
+<ATTRIBUTE name="General purpose attribute" type="LONGSTRING"></ATTRIBUTE>
+<ATTRIBUTE name="From object" type="EXPRESSION">EXPR val:&quot;GUIInventoryHolder&lt;P extends JavaPlugin&gt;&quot;</ATTRIBUTE>
+<ATTRIBUTE name="To object" type="EXPRESSION">EXPR val:&quot;GUIData&quot;</ATTRIBUTE>
+</CONNECTOR>
+<CONNECTOR id="con.15110" class="Is inside">
+<FROM instance="GUIInventoryHolder&lt;P extends JavaPlugin&gt;" class="Class (UML)"></FROM>
+<TO instance="GUI Lib" class="Package (UML)"></TO>
+<ATTRIBUTE name="AutoConnect" type="STRING"></ATTRIBUTE>
+</CONNECTOR>
+<CONNECTOR id="con.15111" class="Is inside">
+<FROM instance="InventoryHolder" class="Class (UML)"></FROM>
+<TO instance="GUI Lib" class="Package (UML)"></TO>
+<ATTRIBUTE name="AutoConnect" type="STRING"></ATTRIBUTE>
+</CONNECTOR>
+<CONNECTOR id="con.15112" class="Is inside">
+<FROM instance="GUIListener" class="Class (UML)"></FROM>
+<TO instance="GUI Lib" class="Package (UML)"></TO>
+<ATTRIBUTE name="AutoConnect" type="STRING"></ATTRIBUTE>
+</CONNECTOR>
+<CONNECTOR id="con.15113" class="Is inside">
+<FROM instance="Listener" class="Class (UML)"></FROM>
+<TO instance="GUI Lib" class="Package (UML)"></TO>
+<ATTRIBUTE name="AutoConnect" type="STRING"></ATTRIBUTE>
+</CONNECTOR>
+<CONNECTOR id="con.15114" class="Is inside">
+<FROM instance="GUIData" class="Class (UML)"></FROM>
+<TO instance="GUI Lib" class="Package (UML)"></TO>
+<ATTRIBUTE name="AutoConnect" type="STRING"></ATTRIBUTE>
+</CONNECTOR>
+</MODEL>
+</MODELS>
+</ADOXML>
