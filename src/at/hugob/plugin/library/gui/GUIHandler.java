@@ -1,4 +1,4 @@
-package at.hugo.plugin.library.gui;
+package at.hugob.plugin.library.gui;
 
 import org.bukkit.Bukkit;
 import org.bukkit.NamespacedKey;
@@ -23,7 +23,7 @@ import java.util.function.Predicate;
  * @param <Plugin>  The plugin which owns this GUI
  * @param <GUIData> The GUIData that is needed for this GUI to function
  */
-public abstract class GUIHandler<Plugin extends JavaPlugin, GUIData extends at.hugo.plugin.library.gui.GUIData> implements InventoryHolder {
+public abstract class GUIHandler<Plugin extends JavaPlugin, GUIData extends at.hugob.plugin.library.gui.GUIData> implements InventoryHolder {
     /**
      * The actions that will be executed when a slot is pressed
      */

@@ -1,4 +1,4 @@
-package at.hugo.plugin.library.gui;
+package at.hugob.plugin.library.gui;
 
 import net.kyori.adventure.text.Component;
 import org.bukkit.inventory.ItemStack;

@@ -1,4 +1,4 @@
-package at.hugo.plugin.library.gui;
+package at.hugob.plugin.library.gui;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
