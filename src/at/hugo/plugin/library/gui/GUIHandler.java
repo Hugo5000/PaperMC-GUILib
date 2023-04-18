@@ -14,6 +14,9 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.HashMap;
+import java.util.function.Predicate;
+
 /**
  * Manages the GUI and is also the Holder of the GUI Inventory
  *
@@ -21,6 +24,10 @@ import org.jetbrains.annotations.Nullable;
  * @param <GUIData> The GUIData that is needed for this GUI to function
  */
 public abstract class GUIHandler<Plugin extends JavaPlugin, GUIData extends at.hugo.plugin.library.gui.GUIData> implements InventoryHolder {
+    /**
+     * The actions that will be executed when a slot is pressed
+     */
+    private final @NotNull HashMap<Integer, Predicate<InventoryClickEvent>> slotActions = new HashMap<>();
     /**
      * The NameSpacedKey used by Inventory ItemStacks
      */
@@ -50,18 +57,7 @@ public abstract class GUIHandler<Plugin extends JavaPlugin, GUIData extends at.h
         this.guiData = guiData;
         this.inventory = Bukkit.createInventory(this, guiData.size, guiData.title);
 
-        fillAll(guiData.fillerItem);
-    }
-
-    /**
-     * Fills All slots of this gui with a specific Item
-     *
-     * @param itemStack The ItemStack that will be in every slot
-     */
-    protected void fillAll(final @Nullable ItemStack itemStack) {
-        for (int i = 0; i < inventory.getSize(); i++) {
-            setItem(i, itemStack);
-        }
+        fill(guiData.fillerItem);
     }
 
     @Override
@@ -85,6 +81,28 @@ public abstract class GUIHandler<Plugin extends JavaPlugin, GUIData extends at.h
     }
 
     /**
+     * Checks if an item is from this inventory
+     *
+     * @param itemStack The item to check
+     * @return true if it is an item from this inventory
+     */
+    public boolean isInventoryItem(final @Nullable ItemStack itemStack) {
+        if (itemStack == null || itemStack.getType().isAir()) return false;
+        return itemStack.getItemMeta().getPersistentDataContainer().has(guiItemKey);
+    }
+
+    /**
+     * Fills all slots of this gui with a specific Item
+     *
+     * @param itemStack The ItemStack that will be in every slot
+     */
+    protected void fill(final @Nullable ItemStack itemStack) {
+        for (int i = 0; i < inventory.getSize(); i++) {
+            setItem(i, itemStack);
+        }
+    }
+
+    /**
      * Fills the inventory with the inventory content.
      * Try to not use fillAll and instead only replace what is necessary
      */
@@ -96,25 +114,27 @@ public abstract class GUIHandler<Plugin extends JavaPlugin, GUIData extends at.h
      * @param index     the slot in the inventory
      * @param itemStack the item that needs to be put in the inventory
      */
-    protected void setItem(final int index, @Nullable ItemStack itemStack) {
+    protected void setItem(final int index, final @Nullable ItemStack itemStack) {
+        setItem(index, itemStack, null);
+    }
+
+    /**
+     * Sets a slot in this inventory to that item
+     *
+     * @param index     the slot in the inventory
+     * @param itemStack the item that needs to be put in the inventory
+     * @param onClick   This will be executed when someone Clicks on this item, returns true when the event should be cancelled
+     */
+    protected void setItem(final int index, @Nullable ItemStack itemStack, final @Nullable Predicate<InventoryClickEvent> onClick) {
         if (itemStack != null) {
             itemStack = itemStack.clone();
             var meta = itemStack.getItemMeta();
             meta.getPersistentDataContainer().set(guiItemKey, PersistentDataType.BYTE, (byte) 1);
             itemStack.setItemMeta(meta);
         }
+        if (onClick == null) slotActions.remove(index);
+        else slotActions.put(index, onClick);
         inventory.setItem(index, itemStack);
-    }
-
-    /**
-     * Checks if an item is from this inventory
-     *
-     * @param itemStack The item to check
-     * @return true if it is an item from this inventory
-     */
-    protected boolean isInventoryItem(final @Nullable ItemStack itemStack) {
-        if (itemStack == null || itemStack.getType().isAir()) return false;
-        return itemStack.getItemMeta().getPersistentDataContainer().has(guiItemKey);
     }
 
     /**
@@ -123,7 +143,8 @@ public abstract class GUIHandler<Plugin extends JavaPlugin, GUIData extends at.h
      * @param event The InventoryClickEvent Targeted at the Top Inventory
      */
     public void onClickTop(InventoryClickEvent event) {
-        event.setCancelled(true);
+        var action = slotActions.getOrDefault(event.getRawSlot(), GUIHandler::denyAction);
+        event.setCancelled(action.test(event));
     }
 
     /**
@@ -172,5 +193,14 @@ public abstract class GUIHandler<Plugin extends JavaPlugin, GUIData extends at.h
     public void onClose(InventoryCloseEvent event) {
         // remove any inventory item that may still be on the cursor
         if (isInventoryItem(event.getPlayer().getItemOnCursor())) event.getPlayer().setItemOnCursor(null);
+    }
+
+    /**
+     * Denies the event
+     * @param event the event
+     * @return returns true to set it to cancelled
+     */
+    private static boolean denyAction(final @NotNull InventoryClickEvent event) {
+        return true;
     }
 }
