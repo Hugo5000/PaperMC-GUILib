@@ -126,7 +126,7 @@ public abstract class GUIHandler<Plugin extends JavaPlugin, GUIData extends at.h
      * @param onClick   This will be executed when someone Clicks on this item, returns true when the event should be cancelled
      */
     protected void setItem(final int index, @Nullable ItemStack itemStack, final @Nullable Predicate<InventoryClickEvent> onClick) {
-        if (itemStack != null) {
+        if (itemStack != null && !itemStack.isEmpty()) {
             itemStack = itemStack.clone();
             var meta = itemStack.getItemMeta();
             meta.getPersistentDataContainer().set(guiItemKey, PersistentDataType.BYTE, (byte) 1);
