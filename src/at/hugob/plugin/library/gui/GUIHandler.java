@@ -15,6 +15,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.HashMap;
+import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 /**
@@ -115,7 +116,25 @@ public abstract class GUIHandler<Plugin extends JavaPlugin, GUIData extends at.h
      * @param itemStack the item that needs to be put in the inventory
      */
     protected void setItem(final int index, final @Nullable ItemStack itemStack) {
-        setItem(index, itemStack, null);
+        setItem(index, itemStack, (Predicate<InventoryClickEvent>) null);
+    }
+
+    /**
+     * Sets a slot in this inventory to that item and implicitly cancels the event
+     *
+     * @param index     the slot in the inventory
+     * @param itemStack the item that needs to be put in the inventory
+     * @param onClick   This will be executed when someone Clicks on this item and cancels the event
+     */
+    protected void setItem(final int index, @Nullable ItemStack itemStack, final @Nullable Consumer<InventoryClickEvent> onClick) {
+        Predicate<InventoryClickEvent> predicate = null;
+        if(onClick != null) {
+            predicate = e -> {
+                onClick.accept(e);
+                return true;
+            };
+        }
+        setItem(index, itemStack, predicate);
     }
 
     /**
